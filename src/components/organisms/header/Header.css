@@ -1,0 +1,25 @@
+.Header {
+  height: 100px;
+  width: 100%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  width: 500px;
+  height: 50px;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.massage {
+  width: 500px;
+  height: 30px;
+  color: blue;
+  text-align: center;
+}

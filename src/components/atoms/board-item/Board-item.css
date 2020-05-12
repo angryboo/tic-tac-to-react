@@ -1,0 +1,29 @@
+.Board-item {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.set-board {
+  width: 90px;
+  height: 90px;
+  border: 3px solid #000;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  box-sizing: border-box;
+}
+
+.set-board.player-X {
+  background-color: rgb(94, 94, 94);
+  color: #fff;
+}
+
+.set-board.player-O {
+  background-color: rgb(255, 255, 255);
+  color: #000;
+}

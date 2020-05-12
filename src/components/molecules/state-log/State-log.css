@@ -1,0 +1,14 @@
+.State-list {
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.log-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+}

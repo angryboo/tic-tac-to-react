@@ -1,0 +1,8 @@
+.Main {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, #D6A4A4, #DAE2F8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,27 @@
+.Board {
+  width: 800px;
+  height: 510px;
+  border-radius: 20px;
+  background-color: #fff;
+
+}
+
+.warp-gameboard {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.init-game {
+  width: 100px;
+  height: 30px;
+  margin: 0 15px 20px auto;
+  display: block;
+  font-size: 0.8rem;
+  border: 1px solid rgb(129, 129, 129);
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(to right, #D6A4A4, #DAE2F8);
+  color: #000;
+  font-weight: 700;
+}
