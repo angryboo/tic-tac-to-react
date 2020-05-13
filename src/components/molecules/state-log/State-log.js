@@ -11,9 +11,9 @@ function StateLog({ getLog, handleGameLog }) {
 
   useEffect(() => {
     setLog(getLog);
-    console.log('update-loglist');
+    console.log('update-log');
     return () => {
-      console.log('cleanup-loglist');
+      console.log('cleanup-log');
     };
   }, [getLog]);
   return (

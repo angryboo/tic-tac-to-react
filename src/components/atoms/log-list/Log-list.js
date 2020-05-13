@@ -18,7 +18,8 @@ function LogList({ log, index, handleGameLog }) {
     return () => {
       console.log('cleanup-loglist', `${index}`);
     };
-  }, [index, log]);
+    // eslint-disable-next-line
+  }, [log]);
   return (
     // eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions
     <li className={st('Log-list')} onClick={() => handleGameLog($log, $index)}>

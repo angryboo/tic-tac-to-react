@@ -16,11 +16,12 @@ function BoardItem({ xaxis, yaxis, handleClickEvent, item }) {
     setPlayer(item);
     setX(xaxis);
     setY(yaxis);
-    console.log('cleanup-item', x, y, player);
+    console.log('update-board-item', xaxis, yaxis, item);
     return () => {
-      console.log('cleanup-item');
+      console.log('cleanup-board-item', xaxis, yaxis, item);
     };
-  }, [xaxis, yaxis, item, x, y, player]);
+    // eslint-disable-next-line
+  }, [item]);
 
   return (
     <div className={st('inner-array')}>
