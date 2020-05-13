@@ -27,3 +27,9 @@
   background-color: rgb(255, 255, 255);
   color: #000;
 }
+
+.inner-array {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(122, 122, 122);
+}
